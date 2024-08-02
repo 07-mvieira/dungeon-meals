@@ -1,0 +1,189 @@
+body{
+    background-color: #5e3520;
+    color:#fff3ae;
+    font-family: 'Gill Sans MT', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    background-color: #a52a2a;
+    padding: 0;
+    padding-top: 20px;
+    padding-bottom: 3px;
+    text-align: center;
+}
+
+#header{
+    text-decoration: none;
+    color: #fffaf4;
+    font-size: 23pt;
+    font-family: 'Georgia';
+    font-weight: bolder;
+}
+
+header nav ul{
+    list-style-type: none;
+    padding: 0;
+    margin-top: 20px;
+}
+
+header nav ul li{
+    display: inline;
+    margin: 0 10px;
+}
+
+header nav ul li a{
+    color: #ffe7c7;
+    text-decoration: none;
+    font-weight: lighter;
+}
+
+#mainpage{
+    padding: 50px;
+}
+
+h2{
+    margin: auto;
+}
+
+/*home*/
+
+.pos{
+    display: flex;
+    text-align: center;
+}
+
+.pos .button{
+    background-color: #1b191861;
+    display: inline-block;
+    width: 160;
+    padding: 16px;
+    margin: 40px;
+}
+
+.pos .button img{
+    height: 200px;
+    width: 200px;
+    margin-right: 10px;
+    display: flex;
+    float: left;
+}
+
+.pos .button div{
+    display: inline;
+    margin: auto;
+    text-align: right;
+}
+
+.pos .button h3{
+    font-size: 16pt;
+    margin: auto;
+    text-align: center;
+}
+
+.pos .button p{
+    text-align: center;
+}
+
+.button-link{
+    text-decoration: none;
+    color: inherit;
+}
+
+/*artigo*/
+
+article{
+    display: flexbox;
+    background-color: #231f1d62;
+    margin-left: 10%;
+    margin-right: 10%;
+    padding: 5%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    border-left: solid, gold, 100px;
+    border-right: solid gold, 100px;
+}
+
+.title-img{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: auto;
+}
+
+.title-img img{
+    width: 30rem;
+    height: auto;
+    padding: 30px;
+}
+
+.title-img h1{
+    margin: 1%;
+    padding: 1%;
+    font-size: 28pt;
+}
+
+hr{
+    border-color: gold;
+    margin: auto;
+    width: 50%
+}
+
+p{
+    font-size: 14pt;
+    font-weight: normal;
+}
+
+article h2{
+    margin: 20px;
+    font-size: 20pt;
+    font-weight: bold;
+    text-align: center;
+}
+
+.ingredients{
+    align-items: center;
+    text-align: center;
+}
+
+.ingredients ul{
+    width: 30%;
+    max-width: 30%;
+}
+
+.ingredients li{
+    list-style-type: none;
+}
+
+.ing{
+    display: inline-block;
+    text-align: left;
+}
+
+.amount{
+    display: inline-block;
+    text-align: right;
+}
+
+/*footer*/
+
+footer{
+    position: relative;
+    bottom: 0;
+    background-color: #a52a2a;
+    padding: 0;
+    padding: 4px;
+    text-align: center;
+}
+
+footer p{
+    color: #ffdfdf;
+    font-size: 10pt;
+    margin: 2vh;
+}
+
+footer p a{
+    text-decoration: none;
+    color: #f79e5f;
+}
