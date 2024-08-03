@@ -1,9 +1,13 @@
 body{
+    background-image: url('./imgs/bg.jpg');
+    background-position: center;
+    background-size: auto;
     background-color: #5e3520;
     color:#fff3ae;
     font-family: 'Gill Sans MT', sans-serif;
     margin: 0;
     padding: 0;
+    font-size: 14pt;
 }
 
 header{
@@ -40,29 +44,32 @@ header nav ul li a{
 }
 
 #mainpage{
-    padding: 50px;
+    padding: 30px;
 }
 
 h2{
     margin: auto;
+    text-align: center;
 }
 
 /*home*/
 
-.pos{
+.grid{
     display: flex;
     text-align: center;
+    align-items: center;
+    justify-content: center;
 }
 
-.pos .button{
-    background-color: #1b191861;
+.grid .button{
+    background-color: #1b191885;
     display: inline-block;
     width: 160;
     padding: 16px;
-    margin: 40px;
+    margin: 30px;
 }
 
-.pos .button img{
+.grid .button img{
     height: 200px;
     width: 200px;
     margin-right: 10px;
@@ -70,20 +77,21 @@ h2{
     float: left;
 }
 
-.pos .button div{
+.grid .button div{
     display: inline;
     margin: auto;
     text-align: right;
 }
 
-.pos .button h3{
+.grid .button h3{
     font-size: 16pt;
     margin: auto;
     text-align: center;
 }
 
-.pos .button p{
+.grid .button p{
     text-align: center;
+    justify-content: unset;
 }
 
 .button-link{
@@ -95,12 +103,12 @@ h2{
 
 article{
     display: flexbox;
-    background-color: #231f1d62;
+    background-color: #231f1d81;
     margin-left: 10%;
     margin-right: 10%;
-    padding: 5%;
+    padding: 7%;
     padding-top: 1%;
-    padding-bottom: 1%;
+    padding-bottom: 4%;
     border-left: solid, gold, 100px;
     border-right: solid gold, 100px;
 }
@@ -131,18 +139,19 @@ hr{
 }
 
 p{
-    font-size: 14pt;
     font-weight: normal;
 }
 
 article h2{
     margin: 20px;
+    margin-bottom: 0;
     font-size: 20pt;
     font-weight: bold;
     text-align: center;
 }
 
 .ingredients{
+    margin: 0;
     align-items: center;
     text-align: center;
 }
@@ -164,6 +173,49 @@ article h2{
 .amount{
     display: inline-block;
     text-align: right;
+}
+
+ol{
+    margin: 0;
+}
+
+ol li{
+    padding: 15px;    
+}
+
+h4{
+    font-weight: normal;
+    text-align: center;
+}
+
+#feedback{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+#feedback input{
+    font-family: 'Gill Sans MT', sans-serif;
+    font-size: 14pt;
+    border-radius: 3px;
+    margin-left: 10px;
+    margin-right: 10px;
+    height: 35px;
+}
+
+#feedback .text{
+    background-color: #3c332f;
+    border-color: #312926;
+    color: #fff3ae;
+}
+
+#feedback .button{
+    background-color: #231f1d;
+    border-color: #1f1c1a;
+    color: #fff3ae;
+    cursor: pointer;
+    width: 100px;
 }
 
 /*footer*/
