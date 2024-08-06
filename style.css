@@ -87,11 +87,14 @@ h2{
     font-size: 16pt;
     margin: auto;
     text-align: center;
+    width: 470px;
 }
 
 .grid .button p{
+    font-size: 14pt;
     text-align: center;
     justify-content: unset;
+    width: 470px;
 }
 
 .button-link{
@@ -124,6 +127,7 @@ article{
     width: 30rem;
     height: auto;
     padding: 30px;
+    padding-bottom: 0;
 }
 
 .title-img h1{
@@ -136,6 +140,13 @@ hr{
     border-color: gold;
     margin: auto;
     width: 50%
+}
+
+h6{
+    padding: 10pt;
+    margin: auto;
+    font-weight: lighter;
+    font-size: 13pt;
 }
 
 p{
