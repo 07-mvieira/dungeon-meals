@@ -138,6 +138,12 @@ article{
     font-size: 28pt;
 }
 
+.title-img a{
+    text-decoration: none;
+    font-style: italic;
+    color: #fffaf4;
+}
+
 hr{
     border-color: gold;
     margin: auto;
