@@ -65,6 +65,8 @@ h2{
     background-color: #1b191885;
     display: inline-block;
     width: 160;
+    max-width: 502;
+    max-height: 232;
     padding: 16px;
     margin: 30px;
 }
