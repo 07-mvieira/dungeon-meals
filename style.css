@@ -176,22 +176,25 @@ article h2{
 }
 
 .ingredients ul{
-    width: 30%;
-    max-width: 30%;
+    width: auto;
+    max-width: 70%;
 }
 
 .ingredients li{
+    display: flexbox;
     list-style-type: none;
 }
 
 .ing{
     display: inline-block;
     text-align: left;
+    margin-right: 10%;
 }
 
 .amount{
     display: inline-block;
     text-align: right;
+    margin-left: 10%;
 }
 
 #material{
