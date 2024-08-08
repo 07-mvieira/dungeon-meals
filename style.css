@@ -194,6 +194,11 @@ article h2{
     text-align: right;
 }
 
+#material{
+    text-align: center;
+    justify-content: center;
+}
+
 ol{
     margin: 0;
 }
